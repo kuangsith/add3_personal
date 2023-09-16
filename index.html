@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Addition Game</title>
+</head>
+
+<body>
+    <!-- Start Game Section -->
+    <div id="startGameSection">
+        <button id="startGameButton">Start Game</button>
+    </div>
+
+    <!-- Question Section -->
+    <div id="questionSection" class="hidden">
+        <h1 id="question">x + y + z</h1>
+        <div id="choices">
+            <button class="choiceBtn">?</button>
+            <button class="choiceBtn">?</button>
+            <button class="choiceBtn">?</button>
+            <button class="choiceBtn">?</button>
+        </div>
+    </div>
+
+    <!-- Result Section -->
+    <div id="resultSection" class="hidden">
+        <h2 id="resultText"></h2>
+        <p id="playerAnswer">Your answer was <span id="playerChoice"></span></p>
+        <p id="actualAnswer"></p>
+        <img id="resultImage" src="" alt="Result Image"><br>
+        <button id="newQuestionButton">New Question</button>
+    </div>
+
+</body>
+
+</html>

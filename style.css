@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEEF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;  /* this will stack child elements vertically */
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.hidden {
+    display: none;
+    align-items: center;
+}
+
+.choiceBtn {
+    font-size: 24px;
+    background-color: #FFD6A5;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choiceBtn:hover {
+    background-color: #FFB085;
+}
+
+#startGameButton,
+#newQuestionButton {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #FFDACD;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
+}
+
+#startGameButton:hover,
+#newQuestionButton:hover {
+    background-color: #FFC2B2;
+}
+
+#resultText {
+    color: green; /* Default color, will be changed by JavaScript */
+    text-align: center;
+}
+
+#resultImage {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.correctChoice {
+    color: green;
+}
+
+.incorrectChoice {
+    color: red;
+}
+
+#playerAnswer,
+#actualAnswer {
+    text-align: center;
+}
