@@ -3,7 +3,7 @@ document.getElementById("newQuestionButton").addEventListener("click", showQuest
 
 let correctAnswer;
 
-const correctImages = ["correct/correct1.jpg", "correct/correct2.jpg", "correct/correct3.jpg", "wrong/wrong4.jpg"];
+const correctImages = ["correct/correct1.jpg", "correct/correct2.jpg", "correct/correct3.jpg", "correct/correct4.jpg"];
 const incorrectImages = ["wrong/wrong1.jpg", "wrong/wrong2.jpg", "wrong/wrong3.jpg", "wrong/wrong4.jpg"];
 
 function startGame() {
